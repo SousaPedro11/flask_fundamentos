@@ -1,0 +1,5 @@
+USERNAME = 'iec_desenv'
+PASSWORD = 'iec_desenv'
+SERVER = 'localhost'
+DB = 'flask_fundamentos'
+SQLALCHEMY_DATABASE_URI = f'mysql://{USERNAME}:{PASSWORD}@{SERVER}/{DB}'
